@@ -1,0 +1,15 @@
+// Primera funcion
+
+fun main() {
+  imprimir6Asteriscos()
+  imprimirNombre()
+  imprimir6Asteriscos()
+}
+
+fun imprimir6Asteriscos(){
+  println("******")
+}
+
+fun imprimirNombre(){
+  println("Gaston")
+}

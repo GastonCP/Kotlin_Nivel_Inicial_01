@@ -1,0 +1,8 @@
+// Distintas formas de mostrar texto.
+
+fun main() {
+    print("Un texto sin saltar de linea ->")
+    print("<- Continuo en la misma linea.")
+    print("\n") //produce un salto
+    println("Muestra un texto y genera un salto de linea.")
+}

@@ -1,0 +1,16 @@
+// Funcion con multiples parametros y variables dentro de estructuras.
+
+fun main() {
+  val marco = "`-._,-'"
+  val repeticiones = 4
+  imprimirMarco(marco, repeticiones)
+  println("   Marco robado por ahi XD")
+  imprimirMarco(marco, repeticiones)
+}
+
+fun imprimirMarco(marco: String, repeticiones: Int) {
+  repeat(repeticiones) {
+      print(marco)
+  }
+  println()
+}

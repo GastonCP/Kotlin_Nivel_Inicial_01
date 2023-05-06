@@ -1,0 +1,21 @@
+// Primera Funcion con parametros y estructura Repetir
+
+fun main() {
+
+  val nombre = "Gaston"
+
+  imprimir6Asteriscos()
+  imprimirNombre(nombre)
+  imprimir6Asteriscos()
+}
+
+fun imprimir6Asteriscos(){
+  repeat(6){
+    print("*")
+  }
+  println()
+}
+
+fun imprimirNombre(nombre: String){
+  println("${nombre}")
+}

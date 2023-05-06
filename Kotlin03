@@ -1,0 +1,16 @@
+// Definir, asignar y mostrar variables y constantes.
+
+fun main() {
+    
+    //variables (valor modificable)
+    var variable = 0
+    println("Valor de la variable  -> ${variable}")
+
+    //Constantes (valor fijo)
+    val constante = 0
+    println("Valor de la constante -> ${constante}")
+
+    variable = 1
+    println("Valor de la variable  -> ${variable}")
+
+}
